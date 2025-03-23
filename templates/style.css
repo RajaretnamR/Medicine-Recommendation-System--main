@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    
+body{
+ font-family : "Atkinson Hyperlegible Next", sans-serif;
+ background: rgb(25,37,99);
+ background: radial-gradient(circle, rgba(25,37,99,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+
+
+ .logo {
+     width: 50px;
+     height: 50px;
+     color: black;
+     margin-top: 0;
+     margin-left: 2px;
+ }
+ .logo img{
+     height: 50px;
+     width: auto;
+ }
+
+ .myimg {
+     width: 50px;
+     height: 50px;
+     border: 2px solid black;
+     border-radius: 25px;
+ }
+
+ .navbar{
+     background-color: #222;
+     padding: 15px;
+
+ }
+ .navbar a {
+     color: white;
+     font-size: 16px;
+     text-transform: uppercase;
+ }
+
+ .navbar a:hover {
+     color: #f8b400;
+ }
+
+ .btn-primary {
+     background-color: #e63946;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 8px;
+     font-size: 16px;
+     cursor: pointer;
+     transition: 0.3s;
+
+ }
+
+.btn-primary:hover {
+background-color: #c62828;
+}
+
+.btn-secondary {
+background-color: #007bff;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 8px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.btn-secondary:hover {
+background-color: #0056b3;
+}
+
+/* Navbar Background Gradient */
+.navbar-custom {
+     background: linear-gradient(135deg, #1e3c72, #2a5298);
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+     padding: 12px;
+ }
+
+ /* Navbar Links Styling */
+ .navbar-nav .nav-link {
+     color: white !important;
+     font-weight: 500;
+     margin-right: 10px;
+     transition: all 0.3s ease-in-out;
+ }
+
+ /* Hover Effect */
+ .navbar-nav .nav-link:hover {
+     color: #ffcc00 !important;
+     transform: scale(1.1);
+ }
+
+ /* Active Link */
+ .navbar-nav .nav-link.active {
+     color: #ffcc00 !important;
+     border-bottom: 2px solid #ffcc00;
+ }
+
+ /* Logo Styling */
+ .logo img {
+     height: px;
+     width: auto;
+     border-radius: 50%;
+     box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+ }
+
+ /* Search Box Styling */
+ .form-control {
+     border-radius: 20px;
+     border: 1px solid #fff;
+ }
+
+ /* Search Button */
+ .btn-outline-success {
+     border-radius: 20px;
+     color: white;
+     border-color: white;
+     transition: all 0.3s ease-in-out;
+ }
+
+ /* Search Button Hover */
+ .btn-outline-success:hover {
+     background: #ffcc00;
+     color: black;
+     border-color: #ffcc00;
+ }
+
+
+    /* Styling for AI Result Section */
+.result-container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 15px;
+ padding: 20px;
+}
+
+/* Modern Button Styles */
+.toggle-button {
+ padding: 10px 15px;
+ font-size: 18px;
+ font-weight: bold;
+ width: 150px;
+ border-radius: 8px;
+ color: white;
+ text-align: center;
+ border: none;
+ cursor: pointer;
+ transition: all 0.3s ease-in-out;
+ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Gradient Background for Each Button */
+.btn-disease { background: linear-gradient(45deg, #F39334, #ff8a00); }
+.btn-description { background: linear-gradient(45deg, #268AF3, #00c6ff); }
+.btn-precaution { background: linear-gradient(45deg, #F371F9, #b5179e); }
+.btn-medications { background: linear-gradient(45deg, #F8576F, #ff416c); }
+.btn-workouts { background: linear-gradient(45deg, #99F741, #43c43f); }
+.btn-diets { background: linear-gradient(45deg, #E5E23D, #ffcc00); }
+
+/* Hover Effects */
+.toggle-button:hover {
+ transform: scale(1.1);
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Background Overlay */
+.modal-content {
+ background: rgba(0, 0, 0, 0.8); /* Glassmorphism effect */
+ backdrop-filter: blur(10px);
+ border-radius: 10px;
+ color: white;
+ box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+/* Modal Header */
+.modal-header {
+ background: linear-gradient(45deg, #020606, #0d0d0d);
+ color: white;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+}
+
+/* Close Button Hover Effect */
+.btn-close:hover {
+ transform: scale(1.1);
+ filter: brightness(80%);
+}
+
+/* Modal Body Styling */
+.modal-body {
+ padding: 20px;
+ font-size: 18px;
+ font-weight: bold;
+ text-align: center;
+}
+  
+body{
+    font-family : "Atkinson Hyperlegible Next", sans-serif;
+    background: rgb(25,37,99);
+    background: radial-gradient(circle, rgba(25,37,99,1) 0%, rgba(0,0,0,1) 100%);
+   }
+
+
+/* Health Center Title */
+.health-title {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Form Container */
+.form-container {
+    background: black;
+    color: white;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 10;
+}
+
+/* Input Field */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    position: relative;
+    z-index: 100;
+    background: white;
+    color: black;
+}
+
+/* Buttons */
+.btn-custom {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn-speech {
+    background: #D32F2F;
+    color: white;
+}
+
+.btn-predict {
+    background: #B71C1C;
+    color: white;
+}
+
+/* AI Results Section */
+.ai-results {
+    background: black;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.ai-title {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Buttons Row */
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-ai {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-disease { background: #F39334; }
+.btn-description { background: #268AF3; }
+.btn-precaution { background: #F371F9; }
+.btn-medications { background: #F8576F; }
+.btn-workouts { background: #99F741; }
+.btn-diets { background: #E5E23D; }
+
+/* Hover Effects */
+.btn-custom:hover, .btn-ai:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
